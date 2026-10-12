@@ -1,4 +1,4 @@
 text = input("Введите строку: ")
 words = text.split()
 longest_word = max(words, key=len) if words else ""
-print("Самое длинное слово:), longest_word)
+print("Самое длинное слово:", longest_word)
